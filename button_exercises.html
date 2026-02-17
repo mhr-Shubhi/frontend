@@ -5,6 +5,10 @@
         height: 30px;
         width: 110px;
         cursor: pointer;
+        transition: opacity 0.15s;
+    }
+    .uber-button:hover{
+        opacity: 0.7;
     }
     .Amazon{
         background-color: rgb(255,216,20);
@@ -15,6 +19,10 @@
         margin-left: 8px;
         border-radius: 15px;
         cursor: pointer;
+        transition:background-color 0.15s;
+    }
+    .Amazon:hover{
+        background-color: rgb(206, 174, 16);
     }
     .GitHub{
         background-color: rgb(46, 164,79);
@@ -26,6 +34,10 @@
         cursor: pointer;
         border-radius: 6px;
         margin-left: 8px;
+        transition:box-shadow 0.15s;
+    }
+    .GitHub:hover{
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.10);
     }
     .Linkdin{
         background-color: rgb(10,102,194);
@@ -36,6 +48,10 @@
         border: none;
         border-radius: 15px;
         cursor: pointer;
+        transition: background-color 0.15s;
+    }
+    .Linkdin:hover{
+        background-color: rgb(8, 79, 150);
     }
     .Lindin_save{
         border-width: 1.5px;
@@ -47,6 +63,12 @@
         font-weight: bold;
         border-radius: 15px;
         border-style: solid;
+        transition: opacity 0.15s,border-width 0.10s,background-color 0.15s;
+    }
+    .Lindin_save:hover{
+        opacity:0.8;
+        border-width: 2px;
+        background-color: rgba(225,225,225, 0.5);
     }
 </style>
 <button class="uber-button">
