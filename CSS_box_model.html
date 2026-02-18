@@ -23,17 +23,25 @@
         margin-left:12px;
     }
     .stretch:hover{
-        padding-left: 16px;
-        padding-right: 16px;
-        padding-top:12px;
-        padding-bottom:12px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top:16px;
+        padding-bottom:16px;
     }
     .shadow{
         background-color: green;
         color:white;
         font-weight: bold;
         border:none;
-        padding: 10px 16px;
+        padding: 10px 15px;
+        
+    }
+    .shadow:hover{
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.16);
+        transition: box-shadow 0.20s;
+    }
+    .shadow:active{
+        transform: translateY(4px);
     }
 </style>
 <button class="stretch">
