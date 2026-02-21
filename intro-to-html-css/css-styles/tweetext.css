@@ -1,0 +1,17 @@
+.p{
+    vertical-align: middle;
+}
+.cat{
+    width: 200px;
+    vertical-align: middle;
+}
+
+.placeholder{
+    border: none;
+}
+
+.tweet-button{
+    border: none;
+    background-color: rgb(26, 99, 236);
+    color: white;
+}   
