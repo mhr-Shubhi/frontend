@@ -2,7 +2,17 @@
 <html>
     <head>
         <title>YouTube.com Clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+        
+        
         <style>
+            p{
+                font-family:  Roboto, Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            } 
             .thumbnail{
                 width: 300px;
                 display: block;
@@ -17,16 +27,31 @@
                 vertical-align: top;
                 margin-right: 15px;
             }
-            
+            .profile-pic{
+                display: inline-block;
+                width: 50px;
+            }
+            .video-discription{
+                display: inline-block;
+                width: 250px;
+            }
         </style>
     </head>
     <body>
         <input class="search-bar" type="search-bar" placeholder="Search">
-       
-        <div class="video-preview">
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp" >
-
-        <p>
+    
+    
+    <div class="video-preview">
+        <div>
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp" >
+        </div> 
+        
+        <div>
+        <div class="profile-pic">
+            <img src="channel_pfp/channel-1.jpeg"> 
+        </div>
+        <div class="video-discription">
+            <p>
             Talking Tech and AI with Google CEO Sundar Pichai!
         </p>
         <p class="video-author">
@@ -36,7 +61,12 @@
         <p>
             3.4M views · 6 months ago
         </p>
-       </div> 
+        </div>
+        </div>
+        
+
+        
+    </div> 
         
        <div class="video-preview">
         <img class="thumbnail" src="thumbnails/thumbnail-2.webp" >
