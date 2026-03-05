@@ -30,22 +30,33 @@
             .profile-pic{
                 display: inline-block;
                 width: 50px;
+                vertical-align: top;
             }
-            .video-discription{
-                display: inline-block;
-                width: 240px;
-            }
+           
             .creator-pfp{
-                width: 40px;
+                width: 36px;
                 border-radius: 20px;
             }
-            .vid_title{
-                font-size: 15px;
-                font-weight: 500;
+            .video-info{
+                display: inline-block; 
+                width: 200px;
             }
+            .video-title{
+                font-weight: 550;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+
             .vid_author,.vid_info{
                 color: rgb(96,96,96);
                 font-size: 12px;
+            }
+            .vid_author{
+                margin-bottom: 5px;
+            }
+            .thumbnail-spacing{
+                margin-bottom: 12px;
             }
 
         </style>
@@ -55,7 +66,7 @@
     
     
     <div class="video-preview">
-        <div>
+        <div class="thumbnail-spacing">
             <img class="thumbnail" src="thumbnails/thumbnail-1.webp" >
         </div> 
         
@@ -63,8 +74,8 @@
         <div class="profile-pic">
             <img class="creator-pfp" src="channel_pfp/channel-1.jpeg"> 
         </div>
-        <div class="vid_title">
-            <p>
+        <div class="video-info">
+            <p class="video-title">
             Talking Tech and AI with Google CEO Sundar Pichai!
         </p>
         <p class="vid_author">
